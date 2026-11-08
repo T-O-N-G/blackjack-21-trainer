@@ -2,6 +2,7 @@
 let language=/^zh(?:-|$)/i.test(navigator.languages?.[0]||navigator.language||'en')?'zh':'en';
 try{const savedLanguage=localStorage.getItem('bj-lab-language-v1');if(savedLanguage==='zh'||savedLanguage==='en')language=savedLanguage}catch{}
 const english={
+'导出复盘':'Export replay','复盘记录':'Replay export','关闭':'Close','复制全部':'Copy all',
 '21点练习室':'Blackjack Lab','练习每一次选择':'Make every decision count',
 '下一手，打得更好。':'Play your next hand better.',
 '看懂牌局背后的理由，把基础策略练成直觉。':'Understand the why behind each play. Turn basic strategy into instinct.',
